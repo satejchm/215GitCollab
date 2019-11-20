@@ -16,3 +16,226 @@ h4,
 h5,
 h6 {
   margin-bottom: 16px; }
+
+.hero-wrapper {
+  width: 100%;
+  height: 550px;
+  background-color: #002e62; }
+  .hero-wrapper .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 46, 98, 0.85)), to(rgba(253, 185, 48, 0.5))), url("../images/pacersHeroTemp.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 46, 98, 0.85), rgba(253, 185, 48, 0.5)), url("../images/pacersHeroTemp.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 46, 98, 0.85), rgba(253, 185, 48, 0.5)), url("../images/pacersHeroTemp.jpg");
+    background-image: linear-gradient(to right, rgba(0, 46, 98, 0.85), rgba(253, 185, 48, 0.5)), url("../images/pacersHeroTemp.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .hero-wrapper .hero .callout {
+      margin-top: 50px;
+      width: 600px;
+      min-height: 200px;
+      text-align: center; }
+      .hero-wrapper .hero .callout h1 {
+        color: white;
+        font-family: "Playball", cursive;
+        font-size: 400%;
+        padding-bottom: 25px; }
+      .hero-wrapper .hero .callout .slogan {
+        color: #fdb930;
+        margin-bottom: 35px;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 300%;
+        padding-bottom: 25px; }
+      .hero-wrapper .hero .callout .site-button {
+        padding: 10px 25px;
+        background-color: #fdb930;
+        border-radius: 5px;
+        text-decoration: none;
+        font-family: impact;
+        color: white; }
+
+nav {
+  margin-top: -30px;
+  position: relative;
+  z-index: 99;
+  width: 80%;
+  height: 175px;
+  border-bottom: 2px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  nav .logo {
+    height: 50px;
+    width: 100px; }
+  nav .link-wrap {
+    padding-top: 75px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    nav .link-wrap .links {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-transform: uppercase;
+      font-family: impact; }
+      nav .link-wrap .links a {
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+        font-family: impact;
+        font-size: 150%; }
+      nav .link-wrap .links span {
+        margin: 0 10px;
+        color: #002e62;
+        font-size: 28px; }
+    nav .link-wrap .navicon {
+      display: none;
+      color: white;
+      font-size: 120%;
+      cursor: pointer; }
+
+@media (max-width: 768px) {
+  nav .link-wrap {
+    margin-top: 250px;
+    padding-top: 50px; }
+    nav .link-wrap:hover > .links {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    nav .link-wrap .links {
+      display: none;
+      background-color: rgba(0, 46, 98, 0.5);
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-right: -30px;
+      width: 200px; }
+      nav .link-wrap .links a {
+        margin-bottom: 20px; }
+      nav .link-wrap .links span {
+        display: none; }
+    nav .link-wrap .navicon {
+      margin-top: -260px;
+      display: block; } }
+
+.footer-wrapper {
+  width: 100%;
+  background-color: #fdb930;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .footer-wrapper .footer {
+    margin: 0 auto;
+    width: 980px;
+    height: 92.5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: impact;
+    /* .logo {
+      width: 133px;
+      height: 100px;
+    }*/ }
+    .footer-wrapper .footer .copyright {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-transform: lowercase;
+      color: white;
+      font-size: 20px; }
+
+@media (max-width: 600px) {
+  .footer-wrapper .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; } }
+
+#home-info {
+  width: 100%;
+  height: 550px; }
+  #home-info .home {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    #home-info .home .home-callout {
+      padding-top: 50px;
+      min-height: 200px;
+      text-align: center; }
+      #home-info .home .home-callout h1 {
+        color: #002e62;
+        font-family: "Playball", cursive;
+        font-size: 400%;
+        padding-bottom: 25px; }
+      #home-info .home .home-callout p {
+        color: #002e62;
+        font-family: Arial, Helvetica, sans-serif; }
+      #home-info .home .home-callout .slogan {
+        color: #fdb930;
+        margin-bottom: 35px;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 300%;
+        padding-bottom: 25px; }
+      #home-info .home .home-callout .site-button {
+        padding: 10px 25px;
+        background-color: #fdb930;
+        border-radius: 5px;
+        text-decoration: none;
+        font-family: impact;
+        color: white; }

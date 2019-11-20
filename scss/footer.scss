@@ -1,0 +1,38 @@
+//styling for footer of the page
+.footer-wrapper {
+  width: 100%;
+  background-color: $yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .footer {
+    margin: 0 auto;
+    width: 980px;
+    height: 92.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $impact;
+
+    /* .logo {
+      width: 133px;
+      height: 100px;
+    }*/
+
+    .copyright {
+      justify-content: center;
+      text-transform: lowercase;
+      color: $white;
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-wrapper {
+    .footer {
+      flex-direction: column;
+    }
+  }
+}

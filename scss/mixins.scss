@@ -1,0 +1,5 @@
+//mixin to center information on the page
+@mixin center-content($width: $site-full-width, $margin: 0 auto) {
+  max-width: $width;
+  margin: $margin;
+}
