@@ -239,3 +239,150 @@ nav {
         text-decoration: none;
         font-family: impact;
         color: white; }
+
+#roster-info {
+  width: 100%;
+  min-height: 550px;
+  background-color: #002e62; }
+  #roster-info .roster {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    min-height: 550px;
+    width: 80%; }
+    #roster-info .roster h1 {
+      color: #fdb930;
+      font-family: "Playball", cursive;
+      font-size: 400%;
+      margin: 50px auto 20px; }
+    #roster-info .roster .roster-container {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      min-height: 200px;
+      text-align: center;
+      padding: 10px 0 30px; }
+      #roster-info .roster .roster-container .player-div {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        height: 152px;
+        width: 210px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100%;
+        margin: 10px 0;
+        border-radius: 210px; }
+        #roster-info .roster .roster-container .player-div .player-info {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -ms-flex-pack: distribute;
+          justify-content: space-around;
+          height: 100%;
+          display: none;
+          color: white;
+          font-weight: 700;
+          border-radius: 210px; }
+        #roster-info .roster .roster-container .player-div:hover .player-info {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          background-color: rgba(0, 46, 98, 0.5); }
+      #roster-info .roster .roster-container .brogdon {
+        background: url("../images/roster/brogdon.png"), -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5)));
+        background: url("../images/roster/brogdon.png"), -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+        background: url("../images/roster/brogdon.png"), -o-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+        background: url("../images/roster/brogdon.png"), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+        background-repeat: no-repeat;
+        background-size: contain; }
+        #roster-info .roster .roster-container .brogdon:hover {
+          background: url("../images/roster/brogdon.png"), -webkit-gradient(linear, left top, left bottom, from(rgba(253, 185, 48, 0.75)), to(rgba(253, 185, 48, 0.75)));
+          background: url("../images/roster/brogdon.png"), -webkit-linear-gradient(top, rgba(253, 185, 48, 0.75), rgba(253, 185, 48, 0.75));
+          background: url("../images/roster/brogdon.png"), -o-linear-gradient(top, rgba(253, 185, 48, 0.75), rgba(253, 185, 48, 0.75));
+          background: url("../images/roster/brogdon.png"), linear-gradient(to bottom, rgba(253, 185, 48, 0.75), rgba(253, 185, 48, 0.75));
+          background-repeat: no-repeat;
+          background-size: contain; }
+      #roster-info .roster .roster-container .oladipo {
+        background: url("../images/roster/oladipo.png"), -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5)));
+        background: url("../images/roster/oladipo.png"), -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+        background: url("../images/roster/oladipo.png"), -o-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+        background: url("../images/roster/oladipo.png"), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+        background-repeat: no-repeat;
+        background-size: contain; }
+        #roster-info .roster .roster-container .oladipo:hover {
+          background: url("../images/roster/oladipo.png"), -webkit-gradient(linear, left top, left bottom, from(rgba(253, 185, 48, 0.75)), to(rgba(253, 185, 48, 0.75)));
+          background: url("../images/roster/oladipo.png"), -webkit-linear-gradient(top, rgba(253, 185, 48, 0.75), rgba(253, 185, 48, 0.75));
+          background: url("../images/roster/oladipo.png"), -o-linear-gradient(top, rgba(253, 185, 48, 0.75), rgba(253, 185, 48, 0.75));
+          background: url("../images/roster/oladipo.png"), linear-gradient(to bottom, rgba(253, 185, 48, 0.75), rgba(253, 185, 48, 0.75));
+          background-repeat: no-repeat;
+          background-size: contain; }
+      #roster-info .roster .roster-container .warren {
+        background: url("../images/roster/warren.png"), -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5)));
+        background: url("../images/roster/warren.png"), -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+        background: url("../images/roster/warren.png"), -o-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+        background: url("../images/roster/warren.png"), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+        background-repeat: no-repeat;
+        background-size: contain; }
+        #roster-info .roster .roster-container .warren:hover {
+          background: url("../images/roster/warren.png"), -webkit-gradient(linear, left top, left bottom, from(rgba(253, 185, 48, 0.75)), to(rgba(253, 185, 48, 0.75)));
+          background: url("../images/roster/warren.png"), -webkit-linear-gradient(top, rgba(253, 185, 48, 0.75), rgba(253, 185, 48, 0.75));
+          background: url("../images/roster/warren.png"), -o-linear-gradient(top, rgba(253, 185, 48, 0.75), rgba(253, 185, 48, 0.75));
+          background: url("../images/roster/warren.png"), linear-gradient(to bottom, rgba(253, 185, 48, 0.75), rgba(253, 185, 48, 0.75));
+          background-repeat: no-repeat;
+          background-size: contain; }
+      #roster-info .roster .roster-container .sabonis {
+        background: url("../images/roster/sabonis.png"), -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5)));
+        background: url("../images/roster/sabonis.png"), -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+        background: url("../images/roster/sabonis.png"), -o-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+        background: url("../images/roster/sabonis.png"), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+        background-repeat: no-repeat;
+        background-size: contain; }
+        #roster-info .roster .roster-container .sabonis:hover {
+          background: url("../images/roster/sabonis.png"), -webkit-gradient(linear, left top, left bottom, from(rgba(253, 185, 48, 0.75)), to(rgba(253, 185, 48, 0.75)));
+          background: url("../images/roster/sabonis.png"), -webkit-linear-gradient(top, rgba(253, 185, 48, 0.75), rgba(253, 185, 48, 0.75));
+          background: url("../images/roster/sabonis.png"), -o-linear-gradient(top, rgba(253, 185, 48, 0.75), rgba(253, 185, 48, 0.75));
+          background: url("../images/roster/sabonis.png"), linear-gradient(to bottom, rgba(253, 185, 48, 0.75), rgba(253, 185, 48, 0.75));
+          background-repeat: no-repeat;
+          background-size: contain; }
+      #roster-info .roster .roster-container .turner {
+        background: url("../images/roster/turner.png"), -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5)));
+        background: url("../images/roster/turner.png"), -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+        background: url("../images/roster/turner.png"), -o-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+        background: url("../images/roster/turner.png"), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+        background-repeat: no-repeat;
+        background-size: contain; }
+        #roster-info .roster .roster-container .turner:hover {
+          background: url("../images/roster/turner.png"), -webkit-gradient(linear, left top, left bottom, from(rgba(253, 185, 48, 0.75)), to(rgba(253, 185, 48, 0.75)));
+          background: url("../images/roster/turner.png"), -webkit-linear-gradient(top, rgba(253, 185, 48, 0.75), rgba(253, 185, 48, 0.75));
+          background: url("../images/roster/turner.png"), -o-linear-gradient(top, rgba(253, 185, 48, 0.75), rgba(253, 185, 48, 0.75));
+          background: url("../images/roster/turner.png"), linear-gradient(to bottom, rgba(253, 185, 48, 0.75), rgba(253, 185, 48, 0.75));
+          background-repeat: no-repeat;
+          background-size: contain; }

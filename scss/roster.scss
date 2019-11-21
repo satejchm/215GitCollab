@@ -1,0 +1,135 @@
+#roster-info {
+  width: 100%;
+  min-height: 550px;
+  background-color: $blue;
+
+  .roster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include center-content();
+    min-height: 550px;
+    width: 80%;
+    //background-color: turquoise;
+
+    h1 {
+      color: $yellow;
+      font-family: $playball;
+      font-size: 400%;
+      margin: 50px auto 20px;
+    }
+
+    .roster-container {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      min-height: 200px;
+      text-align: center;
+      padding: 10px 0 30px;
+      //background-color: green;
+
+      .player-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 152px;
+        width: 210px;
+        font-family: $arial;
+        font-size: 100%;
+        margin: 10px 0;
+        border-radius: 210px;
+
+        .player-info {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          height: 100%;
+          //margin-top: 100px;
+          display: none;
+          color: $white;
+          font-weight: 700;
+          border-radius: 210px;
+        }
+
+        &:hover {
+          .player-info {
+            display: flex;
+            background-color: $blue-alpha;
+          }
+        }
+      }
+
+      .brogdon {
+        background: url("../images/roster/brogdon.png"),
+          linear-gradient(to bottom, $white-alpha, $white-alpha);
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        &:hover {
+          background: url("../images/roster/brogdon.png"),
+            linear-gradient(to bottom, $yellow-alpha75, $yellow-alpha75);
+          background-repeat: no-repeat;
+          background-size: contain;
+        }
+      }
+
+      .oladipo {
+        background: url("../images/roster/oladipo.png"),
+          linear-gradient(to bottom, $white-alpha, $white-alpha);
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        &:hover {
+          background: url("../images/roster/oladipo.png"),
+            linear-gradient(to bottom, $yellow-alpha75, $yellow-alpha75);
+          background-repeat: no-repeat;
+          background-size: contain;
+        }
+      }
+
+      .warren {
+        background: url("../images/roster/warren.png"),
+          linear-gradient(to bottom, $white-alpha, $white-alpha);
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        &:hover {
+          background: url("../images/roster/warren.png"),
+            linear-gradient(to bottom, $yellow-alpha75, $yellow-alpha75);
+          background-repeat: no-repeat;
+          background-size: contain;
+        }
+      }
+
+      .sabonis {
+        background: url("../images/roster/sabonis.png"),
+          linear-gradient(to bottom, $white-alpha, $white-alpha);
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        &:hover {
+          background: url("../images/roster/sabonis.png"),
+            linear-gradient(to bottom, $yellow-alpha75, $yellow-alpha75);
+          background-repeat: no-repeat;
+          background-size: contain;
+        }
+      }
+
+      .turner {
+        background: url("../images/roster/turner.png"),
+          linear-gradient(to bottom, $white-alpha, $white-alpha);
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        &:hover {
+          background: url("../images/roster/turner.png"),
+            linear-gradient(to bottom, $yellow-alpha75, $yellow-alpha75);
+          background-repeat: no-repeat;
+          background-size: contain;
+        }
+      }
+    }
+  }
+}
