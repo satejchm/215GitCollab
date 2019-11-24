@@ -1,6 +1,7 @@
 .contact-sec {
   width: 100%;
-  min-height: 550px;
+  min-height: 650px;
+  max-height: 1000px;
   background-color: $yellow;
   border-bottom: 5px solid $white;
 
@@ -9,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     @include center-content();
-    min-height: 550px;
+    // min-height: 550px;
     width: 80%;
     //background-color: turquoise;
 
@@ -23,17 +24,19 @@
     .contact-container {
       width: 100%;
       display: flex;
+      flex-direction: column;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
       min-height: 200px;
-      text-align: center;
+      //   text-align: center;
       padding: 10px 0 30px;
-      background-color: blueviolet;
+      //   background-color: blueviolet;
 
       .form-div {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-around;
         height: 152px;
         width: 75%;
@@ -48,41 +51,62 @@
           display: flex;
           flex-direction: column;
           //   justify-content: space-between;
-          height: 75px;
-          width: 45%;
-          background-color: chartreuse;
+          height: 85px;
+          width: 65%;
+          margin-bottom: 20px;
+          //   background-color: chartreuse;
 
           h3 {
             margin: auto 0;
             color: $blue;
+            margin-bottom: 10px;
           }
 
           .info-input {
             width: 90%;
             background-color: #ccc;
             border-style: unset;
+            padding: 16px;
+            border: 2px solid $blue;
+            border-radius: 5px;
+            color: $blue;
+            font-size: 16px;
+          }
+
+          #info-message {
+            width: 90%;
+            height: 200px;
+            background-color: #ccc;
+            border-style: unset;
+            padding: 16px;
+            padding-bottom: 75px;
+            border: 2px solid $blue;
+            border-radius: 5px;
+            color: $blue;
+            font-size: 16px;
+          }
+          .submit-button {
+            width: 30%;
+            height: 200px;
+            background-color: $blue;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+            margin-top: 55px;
+            font-size: 16px;
+            text-transform: uppercase;
+          }
+
+          .submit-button:hover {
+            background-color: $yellow;
+            color: $blue;
+            border: 3px solid $blue;
           }
         }
       }
-
-      .info-div {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        height: 152px;
-        width: 35%;
-        font-family: $arial;
-        font-size: 100%;
-        margin: 10px 0;
-        background-color: burlywood;
-      }
     }
-  }
-  input[type="text"] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
   }
 }
