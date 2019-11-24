@@ -44,7 +44,7 @@ h6 {
     background-repeat: no-repeat; }
     .hero-wrapper .hero .callout {
       margin-top: 50px;
-      width: 600px;
+      max-width: 600px;
       min-height: 200px;
       text-align: center; }
       .hero-wrapper .hero .callout h1 {
@@ -386,3 +386,121 @@ nav {
           background: url("../images/roster/turner.png"), linear-gradient(to bottom, rgba(253, 185, 48, 0.75), rgba(253, 185, 48, 0.75));
           background-repeat: no-repeat;
           background-size: contain; }
+
+.contact-sec {
+  width: 100%;
+  min-height: 650px;
+  max-height: 1000px;
+  background-color: #fdb930;
+  border-bottom: 5px solid white; }
+  .contact-sec .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 80%; }
+    .contact-sec .contact h1 {
+      color: #002e62;
+      font-family: "Playball", cursive;
+      font-size: 400%;
+      margin: 50px auto 20px; }
+    .contact-sec .contact .contact-container {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      min-height: 200px;
+      padding: 10px 0 30px; }
+      .contact-sec .contact .contact-container .form-div {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        height: 152px;
+        width: 75%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100%;
+        margin: 10px 0;
+        margin: auto;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        .contact-sec .contact .contact-container .form-div .info-input-container {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          height: 85px;
+          width: 65%;
+          margin-bottom: 20px; }
+          .contact-sec .contact .contact-container .form-div .info-input-container h3 {
+            margin: auto 0;
+            color: #002e62;
+            margin-bottom: 10px; }
+          .contact-sec .contact .contact-container .form-div .info-input-container .info-input {
+            width: 90%;
+            background-color: #ccc;
+            border-style: unset;
+            padding: 16px;
+            border: 2px solid #002e62;
+            border-radius: 5px;
+            color: #002e62;
+            font-size: 16px; }
+          .contact-sec .contact .contact-container .form-div .info-input-container #info-message {
+            width: 90%;
+            height: 200px;
+            background-color: #ccc;
+            border-style: unset;
+            padding: 16px;
+            padding-bottom: 75px;
+            border: 2px solid #002e62;
+            border-radius: 5px;
+            color: #002e62;
+            font-size: 16px; }
+          .contact-sec .contact .contact-container .form-div .info-input-container .submit-button {
+            width: 30%;
+            height: 200px;
+            background-color: #002e62;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+            margin-top: 55px;
+            font-size: 16px;
+            text-transform: uppercase; }
+          .contact-sec .contact .contact-container .form-div .info-input-container .submit-button:hover {
+            background-color: #fdb930;
+            color: #002e62;
+            border: 3px solid #002e62; }
