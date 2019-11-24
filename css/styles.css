@@ -44,7 +44,7 @@ h6 {
     background-repeat: no-repeat; }
     .hero-wrapper .hero .callout {
       margin-top: 50px;
-      width: 600px;
+      max-width: 600px;
       min-height: 200px;
       text-align: center; }
       .hero-wrapper .hero .callout h1 {
@@ -386,3 +386,105 @@ nav {
           background: url("../images/roster/turner.png"), linear-gradient(to bottom, rgba(253, 185, 48, 0.75), rgba(253, 185, 48, 0.75));
           background-repeat: no-repeat;
           background-size: contain; }
+
+.contact-sec {
+  width: 100%;
+  min-height: 550px;
+  background-color: #fdb930;
+  border-bottom: 5px solid white; }
+  .contact-sec .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    min-height: 550px;
+    width: 80%; }
+    .contact-sec .contact h1 {
+      color: #002e62;
+      font-family: "Playball", cursive;
+      font-size: 400%;
+      margin: 50px auto 20px; }
+    .contact-sec .contact .contact-container {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      min-height: 200px;
+      text-align: center;
+      padding: 10px 0 30px;
+      background-color: blueviolet; }
+      .contact-sec .contact .contact-container .form-div {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        height: 152px;
+        width: 75%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100%;
+        margin: 10px 0;
+        margin: auto;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        .contact-sec .contact .contact-container .form-div .info-input-container {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          height: 75px;
+          width: 45%;
+          background-color: chartreuse; }
+          .contact-sec .contact .contact-container .form-div .info-input-container h3 {
+            margin: auto 0;
+            color: #002e62; }
+          .contact-sec .contact .contact-container .form-div .info-input-container .info-input {
+            width: 90%;
+            background-color: #ccc;
+            border-style: unset; }
+      .contact-sec .contact .contact-container .info-div {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        height: 152px;
+        width: 35%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100%;
+        margin: 10px 0;
+        background-color: burlywood; }
+  .contact-sec input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical; }
