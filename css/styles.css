@@ -603,4 +603,148 @@ nav {
       color: #fdb930;
       font-family: "Playball", cursive;
       font-size: 400%;
-      margin: 50px auto 20px; }
+      margin: 50px auto 40px;
+      text-align: center; }
+    #schedule .schedule-container .game-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 100%;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
+      #schedule .schedule-container .game-container .games {
+        width: 350px;
+        background-color: white;
+        border-radius: 25px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding: 15px 5px;
+        margin: 0 25px;
+        margin-bottom: 50px;
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+        #schedule .schedule-container .game-container .games .team-wrapper {
+          width: 95%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          margin: 0 auto; }
+          #schedule .schedule-container .game-container .games .team-wrapper .team-logo {
+            width: 200px;
+            height: 200px;
+            margin: auto; }
+          #schedule .schedule-container .game-container .games .team-wrapper h3 {
+            margin: auto;
+            color: #002e62;
+            font-size: 200%;
+            font-family: Arial, Helvetica, sans-serif; }
+          #schedule .schedule-container .game-container .games .team-wrapper .pacers {
+            background: url("../images/schedule/ind.png");
+            background-repeat: no-repeat;
+            background-size: contain; }
+          #schedule .schedule-container .game-container .games .team-wrapper .mem {
+            background: url("../images/schedule/mem.png");
+            background-repeat: no-repeat;
+            background-size: contain; }
+          #schedule .schedule-container .game-container .games .team-wrapper .okc {
+            background: url("../images/schedule/okc2.png");
+            background-repeat: no-repeat;
+            background-size: contain; }
+          #schedule .schedule-container .game-container .games .team-wrapper .det {
+            background: url("../images/schedule/det.png");
+            background-repeat: no-repeat;
+            background-size: contain; }
+          #schedule .schedule-container .game-container .games .team-wrapper .nyk {
+            background: url("../images/schedule/nyk.png");
+            background-repeat: no-repeat;
+            background-size: contain; }
+          #schedule .schedule-container .game-container .games .team-wrapper .lac {
+            background: url("../images/schedule/lac.png");
+            background-repeat: no-repeat;
+            background-size: contain; }
+          #schedule .schedule-container .game-container .games .team-wrapper .bos {
+            background: url("../images/schedule/bos.png");
+            background-repeat: no-repeat;
+            background-size: contain; }
+          #schedule .schedule-container .game-container .games .team-wrapper .atl {
+            background: url("../images/schedule/atl.png");
+            background-repeat: no-repeat;
+            background-size: contain; }
+          #schedule .schedule-container .game-container .games .team-wrapper .cha {
+            background: url("../images/schedule/cha.png");
+            background-repeat: no-repeat;
+            background-size: contain; }
+          #schedule .schedule-container .game-container .games .team-wrapper .lal {
+            background: url("../images/schedule/lal.png");
+            background-repeat: no-repeat;
+            background-size: contain; }
+          #schedule .schedule-container .game-container .games .team-wrapper .sac {
+            background: url("../images/schedule/sac.png");
+            background-repeat: no-repeat;
+            background-size: contain; }
+          #schedule .schedule-container .game-container .games .team-wrapper .mil {
+            background: url("../images/schedule/mil.png");
+            background-repeat: no-repeat;
+            background-size: contain; }
+          #schedule .schedule-container .game-container .games .team-wrapper .tor {
+            background: url("../images/schedule/tor.png");
+            background-repeat: no-repeat;
+            background-size: contain; }
+          #schedule .schedule-container .game-container .games .team-wrapper .mia {
+            background: url("../images/schedule/mia.png");
+            background-repeat: no-repeat;
+            background-size: contain; }
+          #schedule .schedule-container .game-container .games .team-wrapper .nop {
+            background: url("../images/schedule/nop.png");
+            background-repeat: no-repeat;
+            background-size: contain; }
+          #schedule .schedule-container .game-container .games .team-wrapper .phi {
+            background: url("../images/schedule/phi.png");
+            background-repeat: no-repeat;
+            background-size: contain; }
+      #schedule .schedule-container .game-container .date-info {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        width: 95%;
+        margin: 0 auto;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        margin-bottom: 25px; }
+        #schedule .schedule-container .game-container .date-info h2 {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 200%;
+          text-transform: uppercase;
+          color: #002e62;
+          margin: auto; }
+        #schedule .schedule-container .game-container .date-info .date-yellow {
+          color: #fdb930; }
+        #schedule .schedule-container .game-container .date-info span {
+          font-size: 200%;
+          margin: auto;
+          color: #002e62; }
+      #schedule .schedule-container .game-container .games:hover {
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
