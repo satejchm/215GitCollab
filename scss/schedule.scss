@@ -1,0 +1,19 @@
+#schedule {
+  background-color: $white;
+  min-height: 550px;
+
+  .schedule-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include center-content();
+    width: 80%;
+
+    h1 {
+      color: $yellow;
+      font-family: $playball;
+      font-size: 400%;
+      margin: 50px auto 20px;
+    }
+  }
+}
