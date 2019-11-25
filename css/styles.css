@@ -402,7 +402,7 @@ nav {
           background-repeat: no-repeat;
           background-size: contain; }
 
-#stadium {
+#stadium-info {
   width: 100%;
   min-height: 550px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(253, 185, 48, 0.75)), to(rgba(253, 185, 48, 0.75))), url("../images/BLF.jpg");
@@ -412,7 +412,7 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
-  #stadium .stadium {
+  #stadium-info .stadium {
     width: 100%;
     height: 100%;
     display: -webkit-box;
@@ -427,7 +427,7 @@ nav {
     align-items: center;
     -ms-flex-pack: distribute;
     justify-content: space-around; }
-    #stadium .stadium .stadium-header {
+    #stadium-info .stadium .stadium-header {
       width: 100%;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -439,18 +439,18 @@ nav {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; }
-      #stadium .stadium .stadium-header h1 {
+      #stadium-info .stadium .stadium-header h1 {
         color: #002e62;
         font-family: "Playball", cursive;
         font-size: 400%;
         margin: 50px auto 20px;
         text-align: center; }
-      #stadium .stadium .stadium-header h2 {
+      #stadium-info .stadium .stadium-header h2 {
         color: rgba(255, 255, 255, 0.9);
         font-style: italic;
         font-weight: 100;
         font-family: Arial, Helvetica, sans-serif; }
-    #stadium .stadium .stadium-info-div {
+    #stadium-info .stadium .stadium-info-div {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -462,12 +462,12 @@ nav {
       min-height: 300px;
       width: 80%;
       margin-bottom: 30px; }
-      #stadium .stadium .stadium-info-div iframe {
+      #stadium-info .stadium .stadium-info-div iframe {
         width: 100%;
         height: 100%;
         min-height: 339px;
         margin-right: 20px; }
-      #stadium .stadium .stadium-info-div .stadium-text {
+      #stadium-info .stadium .stadium-info-div .stadium-text {
         font-size: 110%;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 400;
@@ -477,19 +477,19 @@ nav {
         color: #002e62;
         margin: 0 20px;
         line-height: 155%; }
-        #stadium .stadium .stadium-info-div .stadium-text h2 {
+        #stadium-info .stadium .stadium-info-div .stadium-text h2 {
           text-align: center;
           padding: 10px;
           background-color: #002e62;
           color: rgba(255, 255, 255, 0.9);
           margin: 0; }
-        #stadium .stadium .stadium-info-div .stadium-text p {
+        #stadium-info .stadium .stadium-info-div .stadium-text p {
           background-color: rgba(255, 255, 255, 0.5);
           padding: 10px;
           margin: 0; }
 
 @media (max-width: 800px) {
-  #stadium .stadium .stadium-info-div {
+  #stadium-info .stadium .stadium-info-div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -505,11 +505,11 @@ nav {
     min-height: 300px;
     width: 80%;
     margin-bottom: 30px; }
-    #stadium .stadium .stadium-info-div iframe {
+    #stadium-info .stadium .stadium-info-div iframe {
       width: 100%;
       height: 100%;
       margin-right: 0px; }
-    #stadium .stadium .stadium-info-div .stadium-text {
+    #stadium-info .stadium .stadium-info-div .stadium-text {
       font-size: 100%;
       font-family: Arial, Helvetica, sans-serif;
       height: 100%;
