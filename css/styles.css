@@ -35,10 +35,10 @@ h6 {
     max-width: 100%;
     margin: 0 auto;
     height: 100%;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 46, 98, 0.85)), to(rgba(253, 185, 48, 0.5))), url("../images/pacersHeroTemp.jpg");
-    background-image: -webkit-linear-gradient(left, rgba(0, 46, 98, 0.85), rgba(253, 185, 48, 0.5)), url("../images/pacersHeroTemp.jpg");
-    background-image: -o-linear-gradient(left, rgba(0, 46, 98, 0.85), rgba(253, 185, 48, 0.5)), url("../images/pacersHeroTemp.jpg");
-    background-image: linear-gradient(to right, rgba(0, 46, 98, 0.85), rgba(253, 185, 48, 0.5)), url("../images/pacersHeroTemp.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 46, 98, 0.85)), to(rgba(253, 185, 48, 0.6))), url("../images/pacersHeroTemp.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 46, 98, 0.85), rgba(253, 185, 48, 0.6)), url("../images/pacersHeroTemp.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 46, 98, 0.85), rgba(253, 185, 48, 0.6)), url("../images/pacersHeroTemp.jpg");
+    background-image: linear-gradient(to right, rgba(0, 46, 98, 0.85), rgba(253, 185, 48, 0.6)), url("../images/pacersHeroTemp.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
