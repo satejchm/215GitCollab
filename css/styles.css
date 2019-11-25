@@ -64,7 +64,8 @@ h6 {
         background-color: #fdb930;
         border-radius: 5px;
         text-decoration: none;
-        font-family: impact;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
         color: white; }
 
 nav {
@@ -224,7 +225,8 @@ nav {
         padding-bottom: 25px; }
       #home-info .home .home-callout p {
         color: #002e62;
-        font-family: Arial, Helvetica, sans-serif; }
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px; }
       #home-info .home .home-callout .slogan {
         color: #fdb930;
         margin-bottom: 35px;
@@ -510,7 +512,7 @@ nav {
 
 #about-info {
   width: 100%;
-  height: 550px;
+  min-height: 550px;
   background-color: #fdb930; }
   #about-info .about {
     display: -webkit-box;
@@ -533,12 +535,22 @@ nav {
     #about-info .about .about-callout {
       padding-top: 50px;
       min-height: 200px;
-      text-align: center; }
+      text-align: left; }
+      #about-info .about .about-callout .aboutImage {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        float: left;
+        padding-right: 30px;
+        width: 500px; }
       #about-info .about .about-callout h1 {
         color: #002e62;
         font-family: "Playball", cursive;
         font-size: 400%;
-        padding-bottom: 25px; }
+        padding-bottom: 25px;
+        text-align: center; }
       #about-info .about .about-callout p {
         color: #002e62;
-        font-family: Arial, Helvetica, sans-serif; }
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 10px; }
