@@ -700,10 +700,10 @@ nav {
         font-family: Arial, Helvetica, sans-serif;
         padding-bottom: 20px; }
 
-#schedule-info {
+#schedule {
   background-color: white;
   min-height: 550px; }
-  #schedule-info .schedule-container {
+  #schedule .schedule-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -717,7 +717,7 @@ nav {
     max-width: 100%;
     margin: 0 auto;
     width: 80%; }
-    #schedule-info .schedule-container .download-button {
+    #schedule .schedule-container .download-button {
       width: 30%;
       height: 50px;
       background-color: #fdb930;
@@ -736,17 +736,17 @@ nav {
       margin-bottom: 75px;
       text-align: center;
       text-decoration: none; }
-    #schedule-info .schedule-container .download-button:hover {
+    #schedule .schedule-container .download-button:hover {
       background-color: #002e62;
       color: white;
       border: 3px solid #fdb930; }
-    #schedule-info .schedule-container h1 {
+    #schedule .schedule-container h1 {
       color: #fdb930;
       font-family: "Playball", cursive;
       font-size: 400%;
       margin: 50px auto 40px;
       text-align: center; }
-    #schedule-info .schedule-container .game-container {
+    #schedule .schedule-container .game-container {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -762,9 +762,9 @@ nav {
       width: 100%;
       -ms-flex-pack: distribute;
       justify-content: space-around; }
-      #schedule-info .schedule-container .game-container .read-more {
+      #schedule .schedule-container .game-container .read-more {
         display: none; }
-      #schedule-info .schedule-container .game-container .games {
+      #schedule .schedule-container .game-container .games {
         width: 350px;
         background-color: white;
         border-radius: 25px;
@@ -780,7 +780,7 @@ nav {
         margin-bottom: 30px;
         -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-        #schedule-info .schedule-container .game-container .games .team-wrapper {
+        #schedule .schedule-container .game-container .games .team-wrapper {
           width: 95%;
           display: -webkit-box;
           display: -ms-flexbox;
@@ -790,80 +790,80 @@ nav {
           -ms-flex-direction: row;
           flex-direction: row;
           margin: 0 auto; }
-          #schedule-info .schedule-container .game-container .games .team-wrapper .team-logo {
+          #schedule .schedule-container .game-container .games .team-wrapper .team-logo {
             width: 200px;
             height: 200px;
             margin: auto; }
-          #schedule-info .schedule-container .game-container .games .team-wrapper h3 {
+          #schedule .schedule-container .game-container .games .team-wrapper h3 {
             margin: auto;
             color: #002e62;
             font-size: 200%;
             font-family: Arial, Helvetica, sans-serif; }
-          #schedule-info .schedule-container .game-container .games .team-wrapper .pacers {
+          #schedule .schedule-container .game-container .games .team-wrapper .pacers {
             background: url("../images/schedule/ind.png");
             background-repeat: no-repeat;
             background-size: contain; }
-          #schedule-info .schedule-container .game-container .games .team-wrapper .mem {
+          #schedule .schedule-container .game-container .games .team-wrapper .mem {
             background: url("../images/schedule/mem.png");
             background-repeat: no-repeat;
             background-size: contain; }
-          #schedule-info .schedule-container .game-container .games .team-wrapper .okc {
+          #schedule .schedule-container .game-container .games .team-wrapper .okc {
             background: url("../images/schedule/okc2.png");
             background-repeat: no-repeat;
             background-size: contain; }
-          #schedule-info .schedule-container .game-container .games .team-wrapper .det {
+          #schedule .schedule-container .game-container .games .team-wrapper .det {
             background: url("../images/schedule/det.png");
             background-repeat: no-repeat;
             background-size: contain; }
-          #schedule-info .schedule-container .game-container .games .team-wrapper .nyk {
+          #schedule .schedule-container .game-container .games .team-wrapper .nyk {
             background: url("../images/schedule/nyk.png");
             background-repeat: no-repeat;
             background-size: contain; }
-          #schedule-info .schedule-container .game-container .games .team-wrapper .lac {
+          #schedule .schedule-container .game-container .games .team-wrapper .lac {
             background: url("../images/schedule/lac.png");
             background-repeat: no-repeat;
             background-size: contain; }
-          #schedule-info .schedule-container .game-container .games .team-wrapper .bos {
+          #schedule .schedule-container .game-container .games .team-wrapper .bos {
             background: url("../images/schedule/bos.png");
             background-repeat: no-repeat;
             background-size: contain; }
-          #schedule-info .schedule-container .game-container .games .team-wrapper .atl {
+          #schedule .schedule-container .game-container .games .team-wrapper .atl {
             background: url("../images/schedule/atl.png");
             background-repeat: no-repeat;
             background-size: contain; }
-          #schedule-info .schedule-container .game-container .games .team-wrapper .cha {
+          #schedule .schedule-container .game-container .games .team-wrapper .cha {
             background: url("../images/schedule/cha.png");
             background-repeat: no-repeat;
             background-size: contain; }
-          #schedule-info .schedule-container .game-container .games .team-wrapper .lal {
+          #schedule .schedule-container .game-container .games .team-wrapper .lal {
             background: url("../images/schedule/lal.png");
             background-repeat: no-repeat;
             background-size: contain; }
-          #schedule-info .schedule-container .game-container .games .team-wrapper .sac {
+          #schedule .schedule-container .game-container .games .team-wrapper .sac {
             background: url("../images/schedule/sac.png");
             background-repeat: no-repeat;
             background-size: contain; }
-          #schedule-info .schedule-container .game-container .games .team-wrapper .mil {
+          #schedule .schedule-container .game-container .games .team-wrapper .mil {
             background: url("../images/schedule/mil.png");
             background-repeat: no-repeat;
             background-size: contain; }
-          #schedule-info .schedule-container .game-container .games .team-wrapper .tor {
+          #schedule .schedule-container .game-container .games .team-wrapper .tor {
             background: url("../images/schedule/tor.png");
             background-repeat: no-repeat;
             background-size: contain; }
-          #schedule-info .schedule-container .game-container .games .team-wrapper .mia {
+          #schedule .schedule-container .game-container .games .team-wrapper .mia {
             background: url("../images/schedule/mia.png");
             background-repeat: no-repeat;
             background-size: contain; }
-          #schedule-info .schedule-container .game-container .games .team-wrapper .nop {
+          #schedule .schedule-container .game-container .games .team-wrapper .nop {
             background: url("../images/schedule/nop.png");
             background-repeat: no-repeat;
             background-size: contain; }
-          #schedule-info .schedule-container .game-container .games .team-wrapper .phi {
+          #schedule .schedule-container .game-container .games .team-wrapper .phi {
             background: url("../images/schedule/phi.png");
             background-repeat: no-repeat;
             background-size: contain; }
-      #schedule-info .schedule-container .game-container .date-info {
+      #schedule .schedule-container .game-container .date-info {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -876,19 +876,19 @@ nav {
         -ms-flex-pack: distribute;
         justify-content: space-around;
         margin-bottom: 25px; }
-        #schedule-info .schedule-container .game-container .date-info h2 {
+        #schedule .schedule-container .game-container .date-info h2 {
           font-family: Arial, Helvetica, sans-serif;
           font-size: 200%;
           text-transform: uppercase;
           color: #002e62;
           margin: auto; }
-        #schedule-info .schedule-container .game-container .date-info .date-yellow {
+        #schedule .schedule-container .game-container .date-info .date-yellow {
           color: #fdb930; }
-        #schedule-info .schedule-container .game-container .date-info span {
+        #schedule .schedule-container .game-container .date-info span {
           font-size: 200%;
           margin: auto;
           color: #002e62; }
-      #schedule-info .schedule-container .game-container .games:hover {
+      #schedule .schedule-container .game-container .games:hover {
         -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
