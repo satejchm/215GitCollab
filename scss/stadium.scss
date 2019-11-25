@@ -1,4 +1,4 @@
-#stadium {
+#stadium-info {
   width: 100%;
   min-height: 550px;
   background: linear-gradient(to bottom, $yellow-alpha75, $yellow-alpha75),
@@ -82,7 +82,7 @@
 }
 
 @media (max-width: 800px) {
-  #stadium {
+  #stadium-info {
     .stadium {
       .stadium-info-div {
         display: flex;
