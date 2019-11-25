@@ -24,7 +24,7 @@
       font-size: 16px;
       text-transform: uppercase;
       justify-content: center;
-      margin-bottom: 50px;
+      margin-bottom: 75px;
       text-align: center;
       text-decoration: none;
     }
@@ -50,6 +50,10 @@
       //   background-color: cadetblue;
       width: 100%;
       justify-content: space-around;
+
+      .read-more {
+        display: none;
+      }
 
       .games {
         width: 350px;
