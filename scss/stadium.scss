@@ -1,0 +1,118 @@
+#stadium-info {
+  width: 100%;
+  min-height: 550px;
+  background: linear-gradient(to bottom, $yellow-alpha75, $yellow-alpha75),
+    url("../images/BLF.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .stadium {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    .stadium-header {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h1 {
+        color: $blue;
+        font-family: $playball;
+        font-size: 400%;
+        margin: 50px auto 20px;
+        text-align: center;
+      }
+      h2 {
+        color: rgba($white, 0.9);
+        font-style: italic;
+        font-weight: 100;
+        font-family: $arial;
+      }
+    }
+
+    .stadium-info-div {
+      display: flex;
+      align-items: center;
+      @include center-content();
+      min-height: 300px;
+      width: 80%;
+      margin-bottom: 30px;
+      //background-color: $yellow;
+
+      iframe {
+        width: 100%;
+        height: 100%;
+        min-height: 339px;
+        margin-right: 20px;
+      }
+
+      .stadium-text {
+        font-size: 110%;
+        font-family: $arial;
+        font-weight: 400;
+        height: 100%;
+        width: 100%;
+        min-width: 300px;
+        //background-color: $white-alpha75;
+        color: $blue;
+        margin: 0 20px;
+        line-height: 155%;
+
+        h2 {
+          text-align: center;
+          padding: 10px;
+          background-color: $blue;
+          color: rgba($white, 0.9);
+          margin: 0;
+        }
+        p {
+          background-color: $white-alpha;
+          padding: 10px;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  #stadium-info {
+    .stadium {
+      .stadium-info-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include center-content();
+        min-height: 300px;
+        width: 80%;
+        margin-bottom: 30px;
+        //background-color: $yellow;
+
+        iframe {
+          width: 100%;
+          height: 100%;
+          margin-right: 0px;
+        }
+
+        .stadium-text {
+          font-size: 100%;
+          font-family: $arial;
+          height: 100%;
+          width: 100%;
+          min-width: 300px;
+          margin: 0;
+          //background-color: $white-alpha75;
+          color: $blue;
+          padding: 20px;
+          line-height: 155%;
+        }
+      }
+    }
+  }
+}
