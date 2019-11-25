@@ -406,7 +406,7 @@ nav {
   width: 100%;
   min-height: 650px;
   max-height: 1000px;
-  background-color: #fdb930;
+  background-color: #002e62;
   border-bottom: 5px solid white; }
   #contact-info .contact {
     display: -webkit-box;
@@ -423,7 +423,7 @@ nav {
     margin: 0 auto;
     width: 80%; }
     #contact-info .contact h1 {
-      color: #002e62;
+      color: #fdb930;
       font-family: "Playball", cursive;
       font-size: 400%;
       margin: 50px auto 20px; }
@@ -445,7 +445,8 @@ nav {
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
       min-height: 200px;
-      padding: 10px 0 30px; }
+      padding: 10px 0 30px;
+      margin: auto; }
       #contact-info .contact .contact-container .form-div {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -458,15 +459,10 @@ nav {
         flex-wrap: wrap;
         -ms-flex-pack: distribute;
         justify-content: space-around;
-        height: 152px;
         width: 75%;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 100%;
-        margin: 10px 0;
-        margin: auto;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center; }
+        margin: 10px 0; }
         #contact-info .contact .contact-container .form-div .info-input-container {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -477,20 +473,23 @@ nav {
           flex-direction: column;
           height: 85px;
           width: 65%;
+          margin: auto;
           margin-bottom: 20px; }
           #contact-info .contact .contact-container .form-div .info-input-container h3 {
             margin: auto 0;
-            color: #002e62;
-            margin-bottom: 10px; }
+            color: #fdb930;
+            margin-bottom: 10px;
+            width: 90%; }
           #contact-info .contact .contact-container .form-div .info-input-container .info-input {
             width: 90%;
             background-color: #ccc;
             border-style: unset;
             padding: 16px;
-            border: 2px solid #002e62;
+            border: 4px solid #fdb930;
             border-radius: 5px;
             color: #002e62;
-            font-size: 16px; }
+            font-size: 16px;
+            margin-bottom: 20px; }
           #contact-info .contact .contact-container .form-div .info-input-container #info-message {
             width: 90%;
             height: 200px;
@@ -498,14 +497,14 @@ nav {
             border-style: unset;
             padding: 16px;
             padding-bottom: 75px;
-            border: 2px solid #002e62;
+            border: 4px solid #fdb930;
             border-radius: 5px;
             color: #002e62;
             font-size: 16px; }
           #contact-info .contact .contact-container .form-div .info-input-container .submit-button {
             max-width: 90%;
             height: 200px;
-            background-color: #002e62;
+            background-color: #fdb930;
             color: white;
             padding: 16px 20px;
             border: none;
@@ -519,9 +518,23 @@ nav {
             -ms-flex-pack: center;
             justify-content: center; }
           #contact-info .contact .contact-container .form-div .info-input-container .submit-button:hover {
-            background-color: #fdb930;
-            color: #002e62;
-            border: 3px solid #002e62; }
+            background-color: #002e62;
+            color: white;
+            border: 3px solid #fdb930; }
+
+@media (max-width: 1200px) {
+  #contact-info .contact {
+    width: 100%; }
+    #contact-info .contact .contact-container .form-div {
+      width: 95%; }
+      #contact-info .contact .contact-container .form-div .info-input-container {
+        width: 80%; }
+        #contact-info .contact .contact-container .form-div .info-input-container .info-input {
+          width: 90%; }
+        #contact-info .contact .contact-container .form-div .info-input-container #info-message {
+          width: 90%; }
+        #contact-info .contact .contact-container .form-div .info-input-container .submit-button {
+          max-width: 90%; } }
 
 #about-info {
   width: 100%;
