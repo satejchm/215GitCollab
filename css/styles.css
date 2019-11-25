@@ -488,7 +488,7 @@ nav {
             color: #002e62;
             font-size: 16px; }
           .contact-sec .contact .contact-container .form-div .info-input-container .submit-button {
-            width: 30%;
+            max-width: 90%;
             height: 200px;
             background-color: #002e62;
             color: white;
@@ -499,7 +499,10 @@ nav {
             float: right;
             margin-top: 55px;
             font-size: 16px;
-            text-transform: uppercase; }
+            text-transform: uppercase;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center; }
           .contact-sec .contact .contact-container .form-div .info-input-container .submit-button:hover {
             background-color: #fdb930;
             color: #002e62;

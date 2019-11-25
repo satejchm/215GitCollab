@@ -86,7 +86,7 @@
             font-size: 16px;
           }
           .submit-button {
-            width: 30%;
+            max-width: 90%;
             height: 200px;
             background-color: $blue;
             color: white;
@@ -98,6 +98,7 @@
             margin-top: 55px;
             font-size: 16px;
             text-transform: uppercase;
+            justify-content: center;
           }
 
           .submit-button:hover {
