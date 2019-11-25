@@ -504,3 +504,38 @@ nav {
             background-color: #fdb930;
             color: #002e62;
             border: 3px solid #002e62; }
+
+#about-info {
+  width: 100%;
+  height: 550px;
+  background-color: #fdb930; }
+  #about-info .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    #about-info .about .about-callout {
+      padding-top: 50px;
+      min-height: 200px;
+      text-align: center; }
+      #about-info .about .about-callout h1 {
+        color: #002e62;
+        font-family: "Playball", cursive;
+        font-size: 400%;
+        padding-bottom: 25px; }
+      #about-info .about .about-callout p {
+        color: #002e62;
+        font-family: Arial, Helvetica, sans-serif; }
