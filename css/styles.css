@@ -17,11 +17,11 @@ h5,
 h6 {
   margin-bottom: 16px; }
 
-.hero-wrapper {
+#hero-wrapper {
   width: 100%;
   height: 550px;
   background-color: #002e62; }
-  .hero-wrapper .hero {
+  #hero-wrapper .hero {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -42,24 +42,24 @@ h6 {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
-    .hero-wrapper .hero .callout {
+    #hero-wrapper .hero .callout {
       margin-top: 50px;
       max-width: 600px;
       min-height: 200px;
       text-align: center; }
-      .hero-wrapper .hero .callout h1 {
+      #hero-wrapper .hero .callout h1 {
         color: white;
         font-family: "Playball", cursive;
         font-size: 400%;
         padding-bottom: 25px; }
-      .hero-wrapper .hero .callout .slogan {
+      #hero-wrapper .hero .callout .slogan {
         color: #fdb930;
         margin-bottom: 35px;
         font-style: italic;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 300%;
         padding-bottom: 25px; }
-      .hero-wrapper .hero .callout .site-button {
+      #hero-wrapper .hero .callout .site-button {
         padding: 10px 25px;
         background-color: #fdb930;
         border-radius: 5px;
@@ -195,7 +195,7 @@ nav {
 
 #home-info {
   width: 100%;
-  height: 550px; }
+  min-height: 550px; }
   #home-info .home {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -219,14 +219,27 @@ nav {
       min-height: 200px;
       text-align: center; }
       #home-info .home .home-callout h1 {
-        color: #002e62;
+        color: #fdb930;
         font-family: "Playball", cursive;
         font-size: 400%;
         padding-bottom: 25px; }
+      #home-info .home .home-callout h2 {
+        color: #fdb930;
+        font-family: "Playball", cursive;
+        font-size: 600%;
+        margin: 50px auto 20px;
+        text-shadow: -2px 0 #002e62, 0 2px #002e62, 2px 0 #002e62, 0 -2px #002e62; }
+      #home-info .home .home-callout h3 {
+        color: #002e62;
+        font-family: "Playball", cursive;
+        font-size: 600%;
+        margin: 50px auto 20px;
+        text-shadow: -2px 0 #fdb930, 0 2px #fdb930, 2px 0 #fdb930, 0 -2px #fdb930; }
       #home-info .home .home-callout p {
         color: #002e62;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px; }
+        font-size: 20px;
+        padding-bottom: 20px; }
       #home-info .home .home-callout .slogan {
         color: #fdb930;
         margin-bottom: 35px;
@@ -389,13 +402,13 @@ nav {
           background-repeat: no-repeat;
           background-size: contain; }
 
-.contact-sec {
+#contact-info {
   width: 100%;
   min-height: 650px;
   max-height: 1000px;
   background-color: #fdb930;
   border-bottom: 5px solid white; }
-  .contact-sec .contact {
+  #contact-info .contact {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -409,12 +422,12 @@ nav {
     max-width: 100%;
     margin: 0 auto;
     width: 80%; }
-    .contact-sec .contact h1 {
+    #contact-info .contact h1 {
       color: #002e62;
       font-family: "Playball", cursive;
       font-size: 400%;
       margin: 50px auto 20px; }
-    .contact-sec .contact .contact-container {
+    #contact-info .contact .contact-container {
       width: 100%;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -433,7 +446,7 @@ nav {
       flex-wrap: wrap;
       min-height: 200px;
       padding: 10px 0 30px; }
-      .contact-sec .contact .contact-container .form-div {
+      #contact-info .contact .contact-container .form-div {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -454,7 +467,7 @@ nav {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center; }
-        .contact-sec .contact .contact-container .form-div .info-input-container {
+        #contact-info .contact .contact-container .form-div .info-input-container {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
@@ -465,11 +478,11 @@ nav {
           height: 85px;
           width: 65%;
           margin-bottom: 20px; }
-          .contact-sec .contact .contact-container .form-div .info-input-container h3 {
+          #contact-info .contact .contact-container .form-div .info-input-container h3 {
             margin: auto 0;
             color: #002e62;
             margin-bottom: 10px; }
-          .contact-sec .contact .contact-container .form-div .info-input-container .info-input {
+          #contact-info .contact .contact-container .form-div .info-input-container .info-input {
             width: 90%;
             background-color: #ccc;
             border-style: unset;
@@ -478,7 +491,7 @@ nav {
             border-radius: 5px;
             color: #002e62;
             font-size: 16px; }
-          .contact-sec .contact .contact-container .form-div .info-input-container #info-message {
+          #contact-info .contact .contact-container .form-div .info-input-container #info-message {
             width: 90%;
             height: 200px;
             background-color: #ccc;
@@ -489,7 +502,7 @@ nav {
             border-radius: 5px;
             color: #002e62;
             font-size: 16px; }
-          .contact-sec .contact .contact-container .form-div .info-input-container .submit-button {
+          #contact-info .contact .contact-container .form-div .info-input-container .submit-button {
             max-width: 90%;
             height: 200px;
             background-color: #002e62;
@@ -505,7 +518,7 @@ nav {
             -webkit-box-pack: center;
             -ms-flex-pack: center;
             justify-content: center; }
-          .contact-sec .contact .contact-container .form-div .info-input-container .submit-button:hover {
+          #contact-info .contact .contact-container .form-div .info-input-container .submit-button:hover {
             background-color: #fdb930;
             color: #002e62;
             border: 3px solid #002e62; }
@@ -542,6 +555,7 @@ nav {
         display: flex;
         float: left;
         padding-right: 30px;
+        padding-bottom: 20px;
         width: 500px; }
       #about-info .about .about-callout h1 {
         color: #002e62;
@@ -553,4 +567,4 @@ nav {
         color: #002e62;
         font-size: 18px;
         font-family: Arial, Helvetica, sans-serif;
-        padding-bottom: 10px; }
+        padding-bottom: 20px; }
